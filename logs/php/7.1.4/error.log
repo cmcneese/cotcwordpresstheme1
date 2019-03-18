@@ -1,0 +1,34 @@
+[27-Feb-2019 21:43:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 212
+[27-Feb-2019 21:43:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 212
+[17-Mar-2019 22:56:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[17-Mar-2019 22:56:24 UTC] PHP Stack trace:
+[17-Mar-2019 22:56:24 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[17-Mar-2019 22:56:24 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[17-Mar-2019 22:56:24 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[17-Mar-2019 22:56:24 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[17-Mar-2019 22:56:24 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[17-Mar-2019 22:56:24 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[17-Mar-2019 22:56:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[17-Mar-2019 22:56:24 UTC] PHP Stack trace:
+[17-Mar-2019 22:56:24 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[17-Mar-2019 22:56:24 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[17-Mar-2019 22:56:24 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[17-Mar-2019 22:56:24 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[17-Mar-2019 22:56:24 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[17-Mar-2019 22:56:24 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[17-Mar-2019 22:56:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[17-Mar-2019 22:56:25 UTC] PHP Stack trace:
+[17-Mar-2019 22:56:25 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[17-Mar-2019 22:56:25 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[17-Mar-2019 22:56:25 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[17-Mar-2019 22:56:25 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[17-Mar-2019 22:56:25 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[17-Mar-2019 22:56:25 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[18-Mar-2019 03:31:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-admin/includes/theme.php on line 550
+[18-Mar-2019 03:31:03 UTC] PHP Stack trace:
+[18-Mar-2019 03:31:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[18-Mar-2019 03:31:03 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:167
+[18-Mar-2019 03:31:03 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[18-Mar-2019 03:31:03 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[18-Mar-2019 03:31:03 UTC] PHP   5. WP_Customize_Manager->handle_load_themes_request() /app/public/wp-includes/class-wp-hook.php:286
+[18-Mar-2019 03:31:03 UTC] PHP   6. themes_api() /app/public/wp-includes/class-wp-customize-manager.php:5741

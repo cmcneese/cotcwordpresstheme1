@@ -1,0 +1,22 @@
+[Wed Feb 27 21:42:49.600376 2019] [mpm_event:notice] [pid 654:tid 139817910683520] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Feb 27 21:42:49.601918 2019] [core:notice] [pid 654:tid 139817910683520] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 28 03:34:51.896997 2019] [mpm_event:notice] [pid 276:tid 139650066659200] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Feb 28 03:34:51.899833 2019] [core:notice] [pid 276:tid 139650066659200] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 28 03:34:53.770523 2019] [proxy:error] [pid 283:tid 139649976456960] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Thu Feb 28 03:34:53.770845 2019] [proxy_fcgi:error] [pid 283:tid 139649976456960] [client 172.17.0.1:43272] AH01079: failed to make connection to backend: httpd-UDS
+[Thu Feb 28 03:36:46.416922 2019] [mpm_event:notice] [pid 331:tid 140668051593088] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Feb 28 03:36:46.418664 2019] [core:notice] [pid 331:tid 140668051593088] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Mar 04 16:13:05.375801 2019] [mpm_event:notice] [pid 505:tid 140555471054720] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Mon Mar 04 16:13:05.378308 2019] [core:notice] [pid 505:tid 140555471054720] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Mar 04 16:13:06.972519 2019] [proxy:error] [pid 513:tid 140555380852480] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Mon Mar 04 16:13:06.972763 2019] [proxy_fcgi:error] [pid 513:tid 140555380852480] [client 172.17.0.1:40792] AH01079: failed to make connection to backend: httpd-UDS
+[Mon Mar 04 16:13:08.999989 2019] [proxy:error] [pid 513:tid 140555372459776] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Mon Mar 04 16:13:09.000140 2019] [proxy_fcgi:error] [pid 513:tid 140555372459776] [client 172.17.0.1:40798] AH01079: failed to make connection to backend: httpd-UDS, referer: http://cotcwordpresstheme1.local/wp-cron.php?doing_wp_cron=1551715988.9807391166687011718750
+[Sun Mar 17 22:56:21.058153 2019] [mpm_event:notice] [pid 438:tid 139657196574592] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Mar 17 22:56:21.063314 2019] [core:notice] [pid 438:tid 139657196574592] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 17 22:56:22.143235 2019] [proxy:error] [pid 448:tid 139657035642624] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Sun Mar 17 22:56:22.143466 2019] [proxy_fcgi:error] [pid 448:tid 139657035642624] [client 172.17.0.1:43010] AH01079: failed to make connection to backend: httpd-UDS
+[Sun Mar 17 22:56:22.652770 2019] [proxy:error] [pid 448:tid 139657027249920] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Sun Mar 17 22:56:22.654032 2019] [proxy_fcgi:error] [pid 448:tid 139657027249920] [client 172.17.0.1:43014] AH01079: failed to make connection to backend: httpd-UDS, referer: http://cotcwordpresstheme1.local/
+[Sun Mar 17 23:13:53.426721 2019] [mpm_event:notice] [pid 334:tid 140232258058112] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Mar 17 23:13:53.428483 2019] [core:notice] [pid 334:tid 140232258058112] AH00094: Command line: '/usr/sbin/apache2'
